@@ -71,7 +71,7 @@ export default function DonatePage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero */}
-      <div className="relative w-full h-44 md:h-60 overflow-hidden">
+      <div className="relative w-full h-32 md:h-48 overflow-hidden">
         <Image
           src="/banner.png"
           alt="Muslim Plus Banner"
@@ -199,7 +199,7 @@ export default function DonatePage() {
             {[
               { text: "ค่าใช้จ่าย server และ API", icon: Server },
               { text: "ปรับปรุงและพัฒนาฟีเจอร์ใหม่", icon: TrendingUp },
-              { text: "เพิ่มเนื้อหาคุณภาพ (ดุอาอ์, อัซการ์, อัลกุรอาน)", icon: BookOpen },
+              { text: "เพิ่มเนื้อหาคุณภาพ", icon: BookOpen },
               { text: "ดูแลและซ่อมแซมบั๊ก", icon: Wrench },
               { text: "พัฒนาต่อยอดโปรเจกต์", icon: Rocket },
               { text: "ค่าตอบแทนทีมงานที่ดูแลและพัฒนา", icon: User }
