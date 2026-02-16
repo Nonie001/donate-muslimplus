@@ -146,7 +146,7 @@ export default function DonatePage() {
                 <Building2 className="w-4 h-4 text-emerald-600 shrink-0" />
                 <div>
                   <span className="text-xs text-gray-500">ธนาคาร</span>
-                  <p className="font-medium">กสิกรไทย</p>
+                  <p className="font-medium">ไทยพาณิชย์</p>
                 </div>
               </div>
               <div className="flex items-center gap-3">
