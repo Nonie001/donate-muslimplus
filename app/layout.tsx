@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Prompt } from "next/font/google";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 const prompt = Prompt({
   weight: ["300", "400", "500", "600", "700"],
@@ -28,6 +29,7 @@ export default function RootLayout({
         className={`${prompt.variable} font-sans antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
